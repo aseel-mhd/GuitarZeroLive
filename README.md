@@ -6,16 +6,18 @@ Can be played using either the keyboard or a plastic guitar.
 
 # Compile Instructions
 
------------------
+
 LINUX
+-----------------
 
 CLASSPATH=jinput-2.0.9.jar:.
 export CLASSPATH
 javac *.java
 java -Djava.library.path=. Main
 
---------------------------
+
 WINDOWS
+--------------------------
 
 set CLASSPATH=jinput-2.0.9.jar;.
 javac *.java
