@@ -11,8 +11,11 @@ LINUX
 -----------------
 
 CLASSPATH=jinput-2.0.9.jar:.
+
 export CLASSPATH
+
 javac *.java
+
 java -Djava.library.path=. Main
 
 
@@ -20,5 +23,7 @@ WINDOWS
 --------------------------
 
 set CLASSPATH=jinput-2.0.9.jar;.
+
 javac *.java
+
 java -Djava.library.path=. Main
